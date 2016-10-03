@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: silver;
+    background-color: blue;
     margin-top: 75px;
 }
 
@@ -10,6 +10,10 @@ body {
 
 .text-big {
     font-size: 300%;
+}
+
+.text-small{
+    font-size:75%;
 }
 
 .bold {
