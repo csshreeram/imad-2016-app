@@ -17,7 +17,7 @@ app.get('/ui/Blackbuck_white.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Blackbuck_white.jpg'));
 });
 
-app.get('/ui/login.html', function (req, res) {
+app.get('login.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'login.html'));
 });
 
